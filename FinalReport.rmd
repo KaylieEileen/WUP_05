@@ -56,7 +56,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+This numerical summary shows that 76% of the placebo for drug users was more effective than 24% of the actual treatment. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
