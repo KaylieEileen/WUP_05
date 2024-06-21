@@ -20,7 +20,7 @@ druggies = filter(druggies, DrugUser == "yes")
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command. Does this treatment work on drug users?
 
-$H_0$:The treatment is not effective to drug users whether or not they get infected  
+$H_0$: The treatment is not effective to drug users whether or not they get infected  
 $H_A$: The treatment is effective to drug users whether or not they get infected
 
 # Methods
@@ -45,11 +45,18 @@ barchartGC(~infected + treatment,data=druggies, type="percent")
 
 ```
 
-The treatment was more effective to the non - infected.   
+This graph shows that the placebo was more effective than the drug treatment.     
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 ### Numerical Descriptive Results
+```{r}
+table1 <- xtabs(~infected + treatment, data=druggies)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
