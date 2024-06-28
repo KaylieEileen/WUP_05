@@ -45,7 +45,7 @@ barchartGC(~infected + treatment,data=druggies, type="percent")
 
 ```
 
-This graph shows that treatment was more effective to those infected than the placebo.     
+This graph shows that treatment was more effective to drug users with aids than the placebo.     
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
@@ -56,7 +56,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-This numerical summary shows that 48% got aids from taking the treatment whereas 52% got aids from taking the placebo.
+This numerical summary shows that the treatment trial for aids was more effective than the placebo     
+We see that people with treatment were 47% infected and people with the placebo were 52% infected 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
